@@ -21,7 +21,7 @@ body {
     font-size: 48px;
 }
 
-@media screen and (max-device-width: 400px) {
+@media screen and (max-device-width: 30em) {
     #container {
         width: 100%;
         font-size: 60px;
