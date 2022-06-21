@@ -13,21 +13,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 48px;
     /* align-content: center; */
 }
 
-#container {
+/* #container {
     width: 60%;
     font-size: 48px;
-}
-
+} */
+/* 
 @media screen and (max-device-width: 30em) {
     #container {
         width: 100%;
         font-size: 60px;
     }
-}
+} */
 
 #cycle-text-container {
     color: green;
 }
+
+.layout {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .grow1 { flex-grow: 1; vertical-align: middle; }
+  .shrink0 { flex-shrink: 0; }
+
+  #side-image-container {
+    height: 100%;
+  }
+
+  #side-image-container img {
+    height: 100%;
+  }
