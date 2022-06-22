@@ -47,6 +47,9 @@ body {
 
   #side-image-container {
     height: 100%;
+    aspect-ratio: 9/16;
+    background-size: cover;
+    background-image: url('images/developer.jpg');
   }
 
   #side-image-container img {
