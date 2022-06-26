@@ -24,7 +24,7 @@ img {
     aspect-ratio: 9 / 16;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     #textLayout {
         position: absolute;
         top: 33%;
